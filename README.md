@@ -28,7 +28,7 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread("kore.png")
+image = cv2.imread("v.jpg")
 original_image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 ```
 
