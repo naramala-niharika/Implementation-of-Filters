@@ -22,8 +22,10 @@ Apply the filters using cv2.filter2D() for each respective filters.
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 ## Program:
+
 ### Developed By   :Naramala Niharika
 ### Register Number:212221240031
+
 ```
 import cv2
 import numpy as np
@@ -136,6 +138,7 @@ iv) Using Median Filter:
 ![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika4.PNG?raw=true)
 
 ### 2. Sharpening Filters:
+
 i) Using Laplacian Kernal:
 ![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika5.PNG?raw=true)
 
