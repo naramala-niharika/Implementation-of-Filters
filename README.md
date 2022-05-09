@@ -22,13 +22,13 @@ Apply the filters using cv2.filter2D() for each respective filters.
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 ## Program:
-### Developed By   :N.Niharika
+### Developed By   :Naramala Niharika
 ### Register Number:212221240031
 ```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread("v.jpg")
+image = cv2.imread("pikachu.jpg")
 original_image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 ```
 
@@ -124,23 +124,23 @@ plt.axis("off")
 ## OUTPUT:
 ### 1. Smoothing Filters:
 i) Using Averaging Filter:
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn1.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika1.PNG?raw=true)
 
 ii) Using Weighted Averaging Filter::
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn2.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika2.PNG?raw=true)
 
 iii) Using Weighted Averaging Filter
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn3.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika3.PNG?raw=true)
 
 iv) Using Median Filter:
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn4.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika4.PNG?raw=true)
 
 ### 2. Sharpening Filters:
 i) Using Laplacian Kernal:
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn5.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika5.PNG?raw=true)
 
 ii) Using Laplacian Operator:
-![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/nn6.PNG?raw=true)
+![output](https://github.com/naramala-niharika/Implementation-of-Filters/blob/main/pika6.PNG?raw=true)
 
 ## Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
